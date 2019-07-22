@@ -1,33 +1,25 @@
-### Check Out My [YouTube Channel](https://www.YouTube.com/CodingTutorials360)
+Example
 
----
-1. Write a function that returns the sum of two numbers.
-2. Write a function that returns the sum of all numbers regardless of # of params.
+For n = 29, the output should be addTwoDigits(n) = 11.
 
-**Example**
+Hint
 
-For param1 = 1 and param2 = 2, the output should be
-add(param1, param2) = 3.
+split()
+parseInt()
+toString()
+reduce()
+Input/Output
 
-**Hints**
--   Arithmetic Operators
--   Rest Operator
--   forEach()
+[execution time limit] 4 seconds (js)
 
-**Input/Output**
+[input] integer n
 
-- **[time limit] 4000ms (js)**
-- **[input] integer param1**
+A positive two-digit integer.
 
 Guaranteed constraints:
 
--100 ≤ param1 ≤ 1000.
+10 ≤ n ≤ 99.
 
-**[input] integer param2**
+[output] integer
 
-Guaranteed constraints:
--100 ≤ param2 ≤ 1000.
-
-**[output] integer**
-
-The sum of the two inputs.
+The sum of the first and second digits of the input number.
